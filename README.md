@@ -6,7 +6,13 @@ This repository provides a **standard acoustic landmark dataset** built upon the
 
 The repository is organized as follows:
 
-Landmark_Dataset/ │ ├── Data/ │ ├── train_landmark.txt # Training data landmarks │ └── test_landmark.txt # Testing data landmarks └── README.md # Project description
+Landmark_Dataset/  
+│  
+├── Data/  
+│   ├── train_landmark.txt      # Training data landmarks  
+│   └── test_landmark.txt       # Testing data landmarks  
+└── README.md                   # Project description
+
 
 
 ## Landmark Data Format
@@ -75,4 +81,5 @@ The acoustic landmark data is stored in the `train_landmark.txt` and `test_landm
 The **TIMIT Acoustic-Phonetic Continuous Speech Corpus** is widely used for training and evaluating speech recognition systems. This repository focuses on generating and storing **acoustic landmark annotations** for the TIMIT dataset, which can be used for research in speech recognition, phonetics, and linguistics.
 
 
-
+## Python-based Toolkits
+We have also developed a Python-based tool for automatic landmark extraction, and its basic functionality has been completed. You can find it at the following link: [Auto-Landmark](https://github.com/Tonyyouyou/Auto-Landmark)
