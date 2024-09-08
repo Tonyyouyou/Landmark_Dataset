@@ -24,11 +24,10 @@ The acoustic landmark data is stored in the `train_landmark.txt` and `test_landm
 
 
 ### Example Entry:
-/g/data/wa66/Xiangyu/Data/Timit/timit/raw/TIMIT/TRAIN/DR2/MARC0/SI1188.PHN:  
-    2210:g+  2210:s+  2673:s-  3759:g-  4600:g+  
-    4772:b-  5973:v+  6266:v-  7477:g-  9760:b+  
-    11110:b-  11110:g+  12840:g-  13480:b+  14120:b-  
-    14120:g+  16793:f+  16793:g-  20595:b-  20595:f-
+
+```bash
+/g/data/wa66/Xiangyu/Data/Timit/timit/raw/TIMIT/TRAIN/DR2/MARC0/SI1188.PHN: 2210:g+ 2210:s+ 2673:s- 3759:g- 4600:g+ 4772:b- 5973:v+ 6266:v- 7477:g- 9760:b+ 11110:b- 11110:g+ 12840:g- 13480:b+ 14120:b- 14120:g+ 16793:f+ 16793:g- 20595:b- 20595:f-   
+```
 
 
 
