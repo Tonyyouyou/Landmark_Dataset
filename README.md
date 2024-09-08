@@ -2,16 +2,6 @@
 
 This repository provides a **standard acoustic landmark dataset** built upon the TIMIT corpus. The dataset contains both training and testing landmark data, which can be found in the `Landmark_Dataset/Data` directory.
 
-## Repository Structure
-
-Landmark_Dataset/
-│
-├── Data/
-│   ├── train_landmark.txt      # Training data landmarks
-│   └── test_landmark.txt       # Testing data landmarks
-└── README.md                   # Project description
-
-
 
 ## Landmark Data Format
 
