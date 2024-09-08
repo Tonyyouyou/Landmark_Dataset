@@ -4,15 +4,12 @@ This repository provides a **standard acoustic landmark dataset** built upon the
 
 ## Repository Structure
 
-The repository is organized as follows:
-
-Landmark_Dataset/  
-│  
-├── Data/  
-│   ├── train_landmark.txt      # Training data landmarks  
-│   └── test_landmark.txt       # Testing data landmarks  
+Landmark_Dataset/
+│
+├── Data/
+│   ├── train_landmark.txt      # Training data landmarks
+│   └── test_landmark.txt       # Testing data landmarks
 └── README.md                   # Project description
-
 
 
 
