@@ -7,8 +7,9 @@ This repository provides a **standard acoustic landmark dataset** built upon the
 
 The acoustic landmark data is stored in the `train_landmark.txt` and `test_landmark.txt` files. Each line in these files follows the format below:
 
+```bash
 <file_path>: <time>:<landmark> <time>:<landmark> ...
-
+```
 
 ### Example Entry:
 
