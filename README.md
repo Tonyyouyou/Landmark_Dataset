@@ -15,6 +15,7 @@ Landmark_Dataset/
 
 
 
+
 ## Landmark Data Format
 
 The acoustic landmark data is stored in the `train_landmark.txt` and `test_landmark.txt` files. Each line in these files follows the format below:
@@ -23,7 +24,12 @@ The acoustic landmark data is stored in the `train_landmark.txt` and `test_landm
 
 
 ### Example Entry:
-/g/data/wa66/Xiangyu/Data/Timit/timit/raw/TIMIT/TRAIN/DR2/MARC0/SI1188.PHN: 2210:g+ 2210:s+ 2673:s- 3759:g- 4600:g+ 4772:b- 5973:v+ 6266:v- 7477:g- 9760:b+ 11110:b- 11110:g+ 12840:g- 13480:b+ 14120:b- 14120:g+ 16793:f+ 16793:g- 20595:b- 20595:f- 
+/g/data/wa66/Xiangyu/Data/Timit/timit/raw/TIMIT/TRAIN/DR2/MARC0/SI1188.PHN:  
+    2210:g+  2210:s+  2673:s-  3759:g-  4600:g+  
+    4772:b-  5973:v+  6266:v-  7477:g-  9760:b+  
+    11110:b-  11110:g+  12840:g-  13480:b+  14120:b-  
+    14120:g+  16793:f+  16793:g-  20595:b-  20595:f-
+
 
 
 ### Explanation:
@@ -33,16 +39,15 @@ The acoustic landmark data is stored in the `train_landmark.txt` and `test_landm
 - **Time Information**: `2210`, `2673`, `3759`, etc.
   - These numbers represent the sample points in the audio file. In the TIMIT dataset, the sample rate is **16,000 Hz**, meaning there are 16,000 samples per second.
 
-- **Converting Sample Points to Time**:
+- **Converting Sample Points to Time**:  
   To convert the sample points to actual time (in seconds), use the following formula:
 
-  \[
-  \text{Time (in seconds)} = \frac{\text{Sample Point}}{16000}
-  \]
+  Time (in seconds) = Sample Point / 16000
 
   For example:
-  - **4600** sample points correspond to \( \frac{4600}{16000} = 0.2875 \) seconds.
-  - **2210** sample points correspond to \( \frac{2210}{16000} = 0.1381 \) seconds.
+  - **4600** sample points correspond to 4600 / 16000 = 0.2875 seconds.
+  - **2210** sample points correspond to 2210 / 16000 = 0.1381 seconds.
+
 
 - **Landmark Types**:
   - Each time point is associated with an acoustic landmark, such as:
